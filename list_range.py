@@ -22,10 +22,10 @@ else:
     # Exploring "range"
 
     c = list( range( 1, 5 ) )
-    print( "The list 'c' contains: ", c )
+    print( "The list 'c' built with 'range' contains: ", c )
     
     d = list( range( 1, 15, 3 ) )   # step over the values by 3
-    print( "The list 'd' contains: ", d )
+    print( "The list 'd' built with 'range' contains: ", d )
 
     d.extend( [16, 19, 22] )
     print( "The list 'd' contains: ", d )

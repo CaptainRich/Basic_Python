@@ -22,9 +22,9 @@ Once in Power Shell, the command "python <filename>.py will run the file with th
 output going to the terminal.  Note the suffix ".py" is required.
 
 ## $`\textcolor{blue}{\text{References}}`$
-Python for You and Me, Kushal Das, Feb 17, 2021  
-Python Basics: A practical Introduction to Python 3, RealPython.com, 2020  
-Python Ultimate Guide (web download, source unknown)  
+1. Python for You and Me, Kushal Das, Feb 17, 2021  
+2. Python Basics: A practical Introduction to Python 3, RealPython.com, 2020  
+3. Python Ultimate Guide (web download, source unknown)  
 
 
 

@@ -1,8 +1,8 @@
-# Python Basics
+# $`\textcolor{blue}{\text{Python Basics}}`$
 A collection of Python (.py) files illustrationg basic Python concepts and operations
 Richard Ay (August 2023, *updated August 2023*)
 
-## Table of Contents
+## $`\textcolor{blue}{\text{Table of Contents}}`$
 * [Setup](#setup)
 * [References](#references)
 * [File List](#file-list)
@@ -21,14 +21,14 @@ For VS Code it is important to change the Terminal from "Git Bash" to "Power She
 Once in Power Shell, the command "python <filename>.py will run the file with the 
 output going to the terminal.  Note the suffix ".py" is required.
 
-## References
+## $`\textcolor{blue}{\text{References}}`$
 Python for You and Me, Kushal Das, Feb 17, 2021  
 Python Basics: A practical Introduction to Python 3, RealPython.com, 2020  
 Python Ultimate Guide (web download, source unknown)  
 
 
 
-## File List
+## $`\textcolor{blue}{\text{File List}}`$
 **fibonacci.py** - a routine to generate a fibonacci series up to 100  
 **hello_world.py** - the infamous 'hello world' program  
 **list_range.py** - a set of examples illustrating lists and ranges  

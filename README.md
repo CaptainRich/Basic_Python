@@ -22,21 +22,21 @@ Once in Power Shell, the command "python <filename>.py will run the file with th
 output going to the terminal.  Note the suffix ".py" is required.
 
 ## References
-Python for You and Me, Kushal Das, Feb 17, 2021
-Python Basics: A practical Introduction to Python 3, RealPython.com, 2020
-Python Ultimate Guide (web download, source unknown)
+Python for You and Me, Kushal Das, Feb 17, 2021  
+Python Basics: A practical Introduction to Python 3, RealPython.com, 2020  
+Python Ultimate Guide (web download, source unknown)  
 
 
 
 ## File List
-fibonacci.py - a routine to generate a fibonacci series up to 100
-hello_world.py - the infamous 'hello world' program
-list_range.py - a set of examples illustrating lists and ranges
-multiplication_table.py - a routine to generate the multiplication tables up to 15
-number_ops.py - a routine illustrating various number operations, conversions, and formatting
-quadratic.py - a routine to solve the quadratic equation, based on user input of the a, b, c coefficients
-sticks.py - a routine generating the "pick up sticks" game
-string_concatenation.py - a routine illustrating various string manipulations
-Temperature_Conversions.py - a  routine to convert temperatures between Farenheight and Celsius
-User_Input_loops.py - a routine illustrating the various looping methods
+fibonacci.py - a routine to generate a fibonacci series up to 100  
+hello_world.py - the infamous 'hello world' program  
+list_range.py - a set of examples illustrating lists and ranges  
+multiplication_table.py - a routine to generate the multiplication tables up to 15  
+number_ops.py - a routine illustrating various number operations, conversions, and formatting  
+quadratic.py - a routine to solve the quadratic equation, based on user input of the a, b, c coefficients  
+sticks.py - a routine generating the "pick up sticks" game  
+string_concatenation.py - a routine illustrating various string manipulations  
+Temperature_Conversions.py - a  routine to convert temperatures between Farenheight and Celsius  
+User_Input_loops.py - a routine illustrating the various looping methods  
 

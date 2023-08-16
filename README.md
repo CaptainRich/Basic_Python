@@ -38,5 +38,6 @@ output going to the terminal.  Note the suffix ".py" is required.
 **sticks.py** - a routine generating the "pick up sticks" game  
 **string_concatenation.py** - a routine illustrating various string manipulations  
 **Temperature_Conversions.py** - a  routine to convert temperatures between Farenheight and Celsius  
+**tuples_sets.py** - a routine illustrating the usage of tuples and sets  
 **User_Input_loops.py** - a routine illustrating the various looping methods  
 

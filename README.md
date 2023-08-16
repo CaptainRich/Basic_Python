@@ -28,7 +28,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 
 
-## $`\textcolor{blue}{\text{File List}}`$
+## File List
 **fibonacci.py** - a routine to generate a fibonacci series up to 100  
 **hello_world.py** - the infamous 'hello world' program  
 **list_range.py** - a set of examples illustrating lists and ranges  

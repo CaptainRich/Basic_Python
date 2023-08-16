@@ -10,7 +10,7 @@ Richard Ay (August 2023, *updated August 2023*)
 
 
 
-## $`\textcolor{blue}{\text{Setup}}`$
+## Setup
 There are two ways to use these small programs: (1) the Python IDLE or (2) VS Code.
 
 For the Python IDLE, just start the IDLE (which opens a Python Shell), then select File/New
@@ -21,7 +21,7 @@ For VS Code it is important to change the Terminal from "Git Bash" to "Power She
 Once in Power Shell, the command "python <filename>.py will run the file with the 
 output going to the terminal.  Note the suffix ".py" is required.
 
-## $`\textcolor{blue}{\text{References}}`$
+## References
 1. Python for You and Me, Kushal Das, Feb 17, 2021  
 2. Python Basics: A practical Introduction to Python 3, RealPython.com, 2020  
 3. Python Ultimate Guide (web download, source unknown)  

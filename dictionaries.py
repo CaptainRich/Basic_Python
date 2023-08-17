@@ -23,5 +23,11 @@ for x in data1:
 
 print( "The key/value pairs in the dictionary are:" )
 for x in data1.items():
-    print( f"Value = {x}" )
+    print( f"Key/Value = {x}" )
+
+# Dump the data again, but this time include the sequence (index) value
+print( " " )
+print( "The key/value pairs (with sequence number starting with '1') in the dictionary are:" )
+for i, j in enumerate( data1.items() , start=1 ):
+    print( "Index %d key/value pair %s" % (i, j) )
 

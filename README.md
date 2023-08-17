@@ -38,6 +38,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **quadratic.py** - a routine to solve the quadratic equation, based on user input of the a, b, c coefficients  
 **sticks.py** - a routine generating the "pick up sticks" game  
 **string_concatenation.py** - a routine illustrating various string manipulations  
+**student_grades.py** - a program evaluating pass/fail student courses, illustrating lists, dictionaries, and loops
 **Temperature_Conversions.py** - a  routine to convert temperatures between Farenheight and Celsius  
 **tuples_sets.py** - a routine illustrating the usage of tuples and sets  
 **User_Input_loops.py** - a routine illustrating the various looping methods  

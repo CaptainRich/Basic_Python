@@ -29,6 +29,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 
 ## File List
+**dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage
 **fibonacci.py** - a routine to generate a fibonacci series up to 100  
 **hello_world.py** - the infamous 'hello world' program  
 **list_range.py** - a set of examples illustrating lists and ranges  

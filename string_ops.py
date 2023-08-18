@@ -28,3 +28,9 @@ print( " " )
 print( "After splitting 's1' into 's1List': ", s1List )
 s1Join = "_".join( s1List )
 print( "After rejoining the 's1List' into 's1Join': ", s1Join )
+
+# Implement 'find' and 'replace'
+print( " " )
+print( "The index for the word 'boring' in 's1' should be 15: ", s1.find( 'boring' ) )
+print( "Replacing 'boring' with 'exciting' in 's1': ", s1.replace( 'boring', 'exciting' ) )
+

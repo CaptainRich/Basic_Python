@@ -36,7 +36,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **list_range.py** - a set of examples illustrating lists and ranges  
 **multiplication_table.py** - a routine to generate the multiplication tables up to 15  
 **number_ops.py** - a routine illustrating various number operations, conversions, and formatting  
-**quadratic.py** - a routine to solve the quadratic equation, based on user input of the a, b, c coefficients  
+**quadratic.py** - a routine to solve the quadratic equation (for real or complex roots), based on user input of the a, b, c coefficients  
 **sticks.py** - a routine generating the "pick up sticks" game  
 **string_concatenation.py** - a routine illustrating various string manipulations  
 **string_ops.py** - a routine illustrating built-in string methods

@@ -31,6 +31,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 ## File List
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage
 **fibonacci.py** - a routine to generate a fibonacci series up to 100  
+**floating_ops.py** - a routine illustrating floating point operations and rounding
 **hello_world.py** - the infamous 'hello world' program  
 **list_range.py** - a set of examples illustrating lists and ranges  
 **multiplication_table.py** - a routine to generate the multiplication tables up to 15  

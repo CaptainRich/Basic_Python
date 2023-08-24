@@ -30,6 +30,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 ## File List
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage
+**Factorization.py** - a routine to display all the factors of an integer value, implemented 'sys.exit()' on error
 **fibonacci.py** - a routine to generate a fibonacci series up to 100  
 **floating_ops.py** - a routine illustrating floating point operations and rounding
 **hello_world.py** - the infamous 'hello world' program  

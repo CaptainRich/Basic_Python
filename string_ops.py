@@ -1,7 +1,7 @@
 # This routine illustrates a number of th built-in string operations.
 
 # The 'title' method capitalizes the first character of each word in the string
-s1 = "This is a very boring string, but it does have 1one complication. "
+s1 = "This is a very boring string, but it does have 1one complication."
 s2 = "alphaonly"
 s3 = "123456"
 
@@ -34,3 +34,8 @@ print( " " )
 print( "The index for the word 'boring' in 's1' should be 15: ", s1.find( 'boring' ) )
 print( "Replacing 'boring' with 'exciting' in 's1': ", s1.replace( 'boring', 'exciting' ) )
 
+# A few 'slice' examples
+print( " ")
+print( "A few 'slice' examples." )
+print( "The 'slice[6:9] of 's1list: ", s1List[6:9] )
+print( "The reverse of 's1list': ", s1List[::-1] )

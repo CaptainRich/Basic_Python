@@ -44,7 +44,9 @@ print( " " )
 
 temp = (b * b) - 4 * a * c
 
-if( temp < 0 ):
+# If the value under the radical (temp) is negative, we have "complex" roots.
+# Otherwise the roots are "real".
+if temp < 0 :
     complex_roots( a, b, c, temp )
 else:
     real_roots( a, b, c, temp )

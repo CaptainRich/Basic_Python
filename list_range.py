@@ -52,4 +52,11 @@ minG = min( g )
 maxG = max( g )
 print( "The list 'g' contains: ", g )
 print( f" The sum of these values is ", sumG, " the min value is ", minG, " the max value is ", maxG )
+
+# Define a new string, and then use 'split' to create a list, with the 'space' as the separator.
+phrase = "This is a simple string."
+newList = phrase.split( " " )
+print( " " )
+print( "The original string is: ", phrase )
+print( "The string broken into a list (with 'split()') is: ", newList )
       

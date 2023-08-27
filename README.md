@@ -44,5 +44,6 @@ output going to the terminal.  Note the suffix ".py" is required.
 **student_grades.py** - a program evaluating pass/fail student courses, illustrating lists, dictionaries, and loops
 **Temperature_Conversions.py** - a  routine to convert temperatures between Farenheight and Celsius  
 **tuples_sets.py** - a routine illustrating the usage of tuples and sets  
+**university_stats.py** - a program to determine the totals, means, and medians from a list of university lists
 **User_Input_loops.py** - a routine illustrating the various looping methods  
 

@@ -77,7 +77,7 @@ print( " " )
 # Start a loop to request user input until the correct response (or 'exit' is entered).
 match = False
 while not match:
-    
+
     # Prompt the user to enter the Capital of the selected State.
     user_capital = input( f"Enter the capital city of {state}: " )
 
@@ -85,8 +85,9 @@ while not match:
     dictionary_capital = capital.upper()
     user_input_capital = user_capital.upper()
 
-    # Check if the user wants to quit.
+    # Check if the user wants to quit. If so, report the state and its capital.
     if user_input_capital == "EXIT":
+        print( f"The capital of {state} is {capital}.\n" )
         break
 
     elif dictionary_capital == user_input_capital:

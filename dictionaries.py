@@ -17,9 +17,9 @@ print( 'The entire dictionary is: ', data1 )
 
 # Reveal all of the keys in 'data1'
 print( " " )
-print( "The 'keys' in the dictionary are:" )
+print( "The 'keys' and 'values' in the dictionary are:" )
 for x in data1:
-    print( f"Key = {x}" )
+    print( f"Key = {x} and its value is = {data1[x]}" )
 
 print( "The key/value pairs in the dictionary are:" )
 for x in data1.items():

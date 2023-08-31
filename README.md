@@ -29,11 +29,11 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 
 ## File List
-**capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.
-**dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.
-**Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error
-**fibonacci.py** - a routine to generate a fibonacci series up to 100  
-**floating_ops.py** - a routine illustrating floating point operations and rounding
+**capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.  
+**dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.  
+**Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error  
+**fibonacci.py** - a routine to generate a fibonacci series up to 100    
+**floating_ops.py** - a routine illustrating floating point operations and rounding  
 **hello_world.py** - the infamous 'hello world' program  
 **list_range.py** - a set of examples illustrating lists and ranges  
 **multiplication_table.py** - a routine to generate the multiplication tables up to 15  
@@ -42,8 +42,8 @@ output going to the terminal.  Note the suffix ".py" is required.
 **quadratic.py** - a routine to solve the quadratic equation (for real or complex roots), based on user input of the a, b, c coefficients  
 **sticks.py** - a routine generating the "pick up sticks" game  
 **string_concatenation.py** - a routine illustrating various string manipulations  
-**string_ops.py** - a routine illustrating built-in string methods
-**student_grades.py** - a program evaluating pass/fail student courses, illustrating lists, dictionaries, and loops
+**string_ops.py** - a routine illustrating built-in string methods  
+**student_grades.py** - a program evaluating pass/fail student courses, illustrating lists, dictionaries, and loops  
 **Temperature_Conversions.py** - a  routine to convert temperatures between Farenheight and Celsius  
 **tuples_sets.py** - a routine illustrating the usage of tuples and sets  
 **university_stats.py** - a program to determine the totals, means, and medians from a list of university lists

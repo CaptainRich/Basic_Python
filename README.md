@@ -29,6 +29,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 
 ## File List
+**animal_classes.py"" - a routine illustrating 'class' usage.
 **capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.  
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.  
 **Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error  

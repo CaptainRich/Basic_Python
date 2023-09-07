@@ -9,7 +9,8 @@ class Animal:
         self.purpose = purpose
         self.legs    = legs          
 
-    def report( self ):
+    def report( self, a_type ):
+        print( f"{self.name} is a {a_type}." )
         print( f"{self.name} is {self.age} years old, has {self.legs} legs, and is for {self.purpose}." )
         return
     
@@ -27,8 +28,8 @@ class Horse( Animal ):
         return
     
     def report( self, a_type = 'Horse' ):
-        print( f"{self.name} is a {a_type}." )
-        super().report()                        # Call the 'report' method of the parent class.
+        super().report(a_type)                  # Call the 'report' method of the parent class.
+
 
 class Cow( Animal ):
 
@@ -37,8 +38,7 @@ class Cow( Animal ):
         return
     
     def report( self, a_type = 'Cow' ):
-        print( f"{self.name} is a {a_type}." )
-        super().report()                        # Call the 'report' method of the parent class.
+        super().report(a_type)                  # Call the 'report' method of the parent class.
 
 class Chicken( Animal ):
 
@@ -47,8 +47,7 @@ class Chicken( Animal ):
         return
     
     def report( self, a_type = 'Chicken' ):
-        print( f"{self.name} is a {a_type}." )
-        super().report()                        # Call the 'report' method of the parent class.
+        super().report(a_type)                  # Call the 'report' method of the parent class.
 
 
 
@@ -64,5 +63,16 @@ cow1.speak()
 chick1 = Chicken( 'Dodo', 3, 'food & eggs', 2 )
 chick1.report()
 chick1.speak()
+
+# Display a few more 'internal' details.
+print( "'horse1' is: ", type(horse1) )
+print( horse1 )
+
+
+# Display details on the 'objects'.
+print( "For the 'horse1' object ... " )
+for property, value in vars(horse1).items():
+    print( property, " : ", value )
+
 
 

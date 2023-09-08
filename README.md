@@ -18,7 +18,7 @@ For the Python IDLE, just start the IDLE (which opens a Python Shell), then sele
 diagnostics (tracebacks) appearing in the Shell.
 
 For VS Code it is important to change the Terminal from "Git Bash" to "Power Shell".
-Once in Power Shell, the command "python <filename>.py will run the file with the 
+Once in Power Shell, the command "python [filename].py will run the file with the 
 output going to the terminal.  Note the suffix ".py" is required.
 
 ## References
@@ -29,7 +29,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 
 
 ## File List
-**animal_classes.py** - a routine illustrating 'class' definition and usage.
+**animal_classes.py** - a routine illustrating 'class' definition and usage.  
 **capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.  
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.  
 **Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error  

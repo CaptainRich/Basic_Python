@@ -3,12 +3,14 @@
 # 'Animal' is the parent class
 class Animal:
 
+    # Initializer / Constructor
     def __init__( self, name, age, purpose, legs=0 ):
         self.name    = name
         self.age     = age
         self.purpose = purpose
         self.legs    = legs          
 
+    # Instance methods for Class 'Animal'
     def report( self, a_type ):
         print( f"{self.name} is a {a_type}." )
         print( f"{self.name} is {self.age} years old, has {self.legs} legs, and is for {self.purpose}." )
@@ -24,7 +26,7 @@ class Animal:
         return
 
 
-# Define the various child classes.
+# Define the various child classes, that all inherit from Class "Animal"
 class Horse( Animal ):
 
     def speak( self, sound = 'Nay' ):

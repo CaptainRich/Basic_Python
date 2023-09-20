@@ -1,6 +1,6 @@
 # $`\textcolor{blue}{\text{Python Basics}}`$
 A collection of Python (.py) files illustrationg basic Python concepts and operations
-Richard Ay (August 2023, *updated August 2023*)
+Richard Ay (August 2023, *updated September 2023*)
 
 ## $`\textcolor{blue}{\text{Table of Contents}}`$
 * [Setup](#setup)
@@ -32,7 +32,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **animal_classes.py** - a routine illustrating 'class' definition and usage.  
 **capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.  
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.  
-**dir_list.py**  - a routine to list the files and directories in a specified directory.  
+**dir_list.py**  - a routine to list the files and directories in a specified directory, and utilize the 'pathlib' module.   
 **Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error  
 **fibonacci.py** - a routine to generate a fibonacci series up to 100    
 **floating_ops.py** - a routine illustrating floating point operations and rounding  

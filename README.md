@@ -52,3 +52,5 @@ output going to the terminal.  Note the suffix ".py" is required.
 **university_stats.py** - a program to determine the totals, means, and medians from a list of university lists
 **User_Input_loops.py** - a routine illustrating the various looping methods  
 
+**CSV-Work\csv-write-read.py** - a routine to write, then read a CSV file of numbers, and compute the average of each row.
+

@@ -20,12 +20,17 @@ def view_dir( path='.', sorted=False):
 
 
 #################################################################################################
-# Function to scan for a list of directories
-def scan_directory( path ):
+# Function to scan for a list of directories, with subdirectories indented by level.
+def scan_directory( path, num_blanks ):
+    blanks = num_blanks
     with os.scandir(path) as it:
         for entry in it:
             if not entry.name.startswith('.') and entry.is_dir():
-                print(entry.name)
+                # Print the directory name, then scan it.
+                print( ' '*blanks, entry.name )
+                sub_path = path + '/' + entry.name    # Build the path to the subdirectory
+                blanks = blanks + 4                   # Indent each level an additional 4 spaces
+                scan_directory( sub_path, blanks )
 
 
 #################################################################################################
@@ -43,13 +48,15 @@ view_dir( path, sorted )
 
 # Now try the os.scandir function
 print( '=================================================================\n' )
-scan_directory( path )
+num_blanks = 2
+scan_directory( path, num_blanks )
 
 # Now use the 'pathlib' module to report on the 'readme.md' file.  Note that
 # 'pathlib' must be imported above.
 
 md_file_path = pathlib.Path( '/python_work/basic_python' )
 md_file_path = md_file_path / 'readme.md'                       # append the filename
+print( " " )
 print( 'The file path to the "readme.md" file is: ', md_file_path )
 
 # Check if this is an 'absolute' path

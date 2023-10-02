@@ -13,7 +13,7 @@ numbers = [
     [11, 12, 13, 14, 15]
 ]
 
-# Obtain the current working directory, adn setup the output file.
+# Obtain the current working directory, and setup the output file.
 current_path = pathlib.Path.cwd()
 print( '\nThe current working directory is: ', current_path )
 

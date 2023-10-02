@@ -53,5 +53,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **User_Input_loops.py** - a routine illustrating the various looping methods  
 
 **CSV-Work\csv-write-read.py** - a routine to write, then read a CSV file of numbers, and compute the average of each row. Also illustrates 'enumerate' and math operations for the average.  
-**CSV-Work\high-scores.py** - a routine to read a CSV file of 'names & scores' and summarize the data to a new CSV file such that only a person's highest score is reported.
+**CSV-Work\high-scores.py** - a routine to read a CSV file of 'names & scores' and summarize the data to a new CSV file such that only a person's highest score is reported.  
 
+
+**PDF_Work\p.py** - a routine to

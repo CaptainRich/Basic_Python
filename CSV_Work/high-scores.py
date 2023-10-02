@@ -94,7 +94,7 @@ print( '\nThe current working directory is: ', current_path )
 high_scores, field_names = get_scores( current_path )
 
 # Optionally dump out the data just read.
-answer = input( '\nDisplay the summarized score data? (Y or N): ' )
+answer = input( '\nsDisplay the summarized score data? (Y or N): ' )
 if( answer == 'Y'  or  answer == 'y' ):
     print( '\nThe field names from the CSV file are: ', field_names )
     for name in high_scores:

@@ -30,5 +30,5 @@ After starting the virtual environment, PyPDF2 can be installed with the command
 **'python -m pip show PyPDF2'**.
 
 ## File List
-**animal_classes.py** - a routine illustrating 'class' definition and usage.  
+**PDF_Reader.py** - a routine illustrating accessing information from a PDF file.  
 

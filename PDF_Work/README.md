@@ -30,5 +30,6 @@ After starting the virtual environment, PyPDF2 can be installed with the command
 **'python -m pip show PyPDF2'**.
 
 ## File List
-**PDF_Reader.py** - a routine illustrating accessing information from a PDF file.  
+**PDF_Reader.py** - a routine illustrating accessing information from a PDF file.  This routine accesses
+'Pride_and_Prejudice.pdf' and creates 'Pride_and_Prejudice.txt' as an output file.
 

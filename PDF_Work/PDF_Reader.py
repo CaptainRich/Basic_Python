@@ -5,7 +5,7 @@ from pathlib import Path
 
 ############################################################################
 # Main
-"""A routine to read a specific PDF file."""
+"""A routine to read a specific PDF file (Pride_and_Prejudice.pdf)."""
 
 # Build the path to the current working directory and then append the PDF name.
 current_path = Path.cwd()

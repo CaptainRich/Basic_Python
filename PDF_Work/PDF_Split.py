@@ -3,14 +3,17 @@
 This routine splits a PDF file into two documents.  The routine prompts for 
 the name of the PDF, and where (what page) the split should occur.  The routine
 then creates two new PDFs, where the file names are appended with _1 and _2.
+Use 'Pride_and_Prejudice.pdf' as the PDF to break.
 """
 
 from PyPDF2 import PdfReader, PdfWriter
 from pathlib import Path
 
+#############################################################################################
 # 'PdfFileSplitter' is the class that does all the work
 class PdfFileSplitter:
 
+    ########################################################################################
     # Initializer / Constructor
     def __init__( self, input_pdf_path ):
         """This the 'class' constructor for the PDF file splitter."""
@@ -21,6 +24,7 @@ class PdfFileSplitter:
         self.path_out1 = ""   
         self.path_out2 = ""
 
+    #########################################################################################
     # Instance methods for Class 'PdfFileSplitter'
     def split( self, split_point ):
         """This method divides the input PDF into two pieces, based on the split_point."""
@@ -34,7 +38,7 @@ class PdfFileSplitter:
             self.writer2.add_page( page )    
 
         return
-    
+    ##########################################################################################
     def write( self, output_pdf_path ):
         """This class method creates the two output (PDF) files."""
         self.path_out = str( output_pdf_path )
@@ -55,6 +59,7 @@ class PdfFileSplitter:
 
         return
     
+    ############################################################################################
     def report( self ):
         """This class method returns the pathname of the two new PDFs created."""
 

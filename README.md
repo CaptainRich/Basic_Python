@@ -56,4 +56,4 @@ output going to the terminal.  Note the suffix ".py" is required.
 **CSV-Work\high-scores.py** - a routine to read a CSV file of 'names & scores' and summarize the data to a new CSV file such that only a person's highest score is reported.  
 
 
-**PDF_Work\p.py** - a routine to
+**PDF_Work** - a subdirectory with a number of .py routines illustrating accessing PDF files.  This subdirectory includes its own 'redme.md' file.

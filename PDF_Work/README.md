@@ -1,5 +1,5 @@
 # $`\textcolor{blue}{\text{Python Basics - PDF Work}}`$
-A collection of Python (.py) files illustrationg  Python concepts in dealing 
+A collection of Python (.py) files illustrating  Python concepts in dealing 
 with PDF files.
 Richard Ay (September 2023, *updated October 2023*)
 
@@ -31,5 +31,6 @@ After starting the virtual environment, PyPDF2 can be installed with the command
 
 ## File List
 **PDF_Reader.py** - a routine illustrating accessing information from a PDF file.  This routine accesses
-'Pride_and_Prejudice.pdf' and creates 'Pride_and_Prejudice.txt' as an output file.
+'Pride_and_Prejudice.pdf' and creates 'Pride_and_Prejudice.txt' as an output file.  
+**PDF_Split.py** - a routine that splits a specified PDF into two new PDFs, at a specified page.
 

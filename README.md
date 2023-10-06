@@ -1,5 +1,5 @@
 # $`\textcolor{blue}{\text{Python Basics}}`$
-A collection of Python (.py) files illustrationg basic Python concepts and operations
+A collection of Python (.py) files illustrationg basic Python concepts and operations  
 Richard Ay (August 2023, *updated September 2023*)
 
 ## $`\textcolor{blue}{\text{Table of Contents}}`$

@@ -1,6 +1,6 @@
 # $`\textcolor{blue}{\text{Python Basics - PDF Work}}`$
 A collection of Python (.py) files illustrating  Python concepts in dealing 
-with PDF files.
+with PDF files.  
 Richard Ay (September 2023, *updated October 2023*)
 
 ## $`\textcolor{blue}{\text{Table of Contents}}`$  

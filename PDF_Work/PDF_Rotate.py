@@ -4,7 +4,7 @@ This routine rotates pages in a PDF file based on the /Rotate key of the
 page.  If the key value is -90, the page has been rotated 90 deg counterclockwise.
 If this is the case, rotate the page back so that all pages in the document can
 be properly read/displayed.  This routine assumes the PDF document is: 
-'ugly_rotated.pdf'.
+'ugly.pdf'.
 """
 
 from PyPDF2 import PdfReader, PdfWriter
@@ -18,11 +18,11 @@ class PdfFileRotater:
     # Initializer / Constructor
     def __init__( self, input_pdf_path, output_pdf_path ):
         """This the 'class' constructor for the PDF file rotater."""
-        self.path_in   = input_pdf_path   
+        self.path_in   = input_pdf_path  
+        self.path_out  = output_pdf_path 
         self.writer1   = PdfWriter()
         self.reader1   = ""
-        self.path_out  = output_pdf_path  
-
+  
     #########################################################################################
     # Instance methods for Class 'PdfFileRotater'
     def rotate( self ):
@@ -32,7 +32,12 @@ class PdfFileRotater:
 
         for i in range( len(self.reader1.pages ) ):
             page = self.reader1.pages[i]
-            rotate_value = page["/Rotate"]
+
+            # Some PDFs may not have the '/Rotate' key and throw an exception.
+            try:
+                rotate_value = page["/Rotate"]
+            except:                              # If the '/Rotate' key doesn't exist,
+                rotate_value = 0                 # assume the page isn't rotated
 
             # Based on the rotate value, rotate the page in the opposite direction
             # if necessary.  If there is no rotate value, or the rotate value is

@@ -2,5 +2,6 @@
 .DS_Store
 __pycache__
 PDF_Work/PDFenv/
+WEB/WEBenv/
 docs/
 

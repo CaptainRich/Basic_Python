@@ -27,9 +27,14 @@ activated, the virtual environment will change the (terminal) prompt from (PS) t
 
 After starting the virtual environment, Beautifulsoup4 can be installed with the command:  
 **'python -m pip install beautifulsoup4'**.  Subsequently the installation can be verified with the command: 
-**'python -m pip show beautifulsoup4'**.
+**'python -m pip show beautifulsoup4'**.  
+
+For interacting with web pages, Mechanicalsoup should be installed, using the command:
+**python -m pip install mechanicalsoup**.
 
 ## File List
-**page_read.py** - an example of reading a webpage using 'beautifulsoup'.    
+**page_read.py** - an example of reading a webpage using 'beautifulsoup'.   
+**form_submit.py** - an example of interacting with a web form using 'mechanicalsoup'.  
+ 
  
 

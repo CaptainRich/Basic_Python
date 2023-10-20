@@ -1,4 +1,4 @@
-# A routine illustrating reading a web page using 'beautifulSoup.
+""" A routine illustrating reading a web page using 'beautifulSoup."""
 
 
 # Import the needed functions

@@ -1,4 +1,4 @@
-# A routine to submit data to a 'login' form on the web.
+""" A routine to submit data to a 'login' form on the web."""
 
 import mechanicalsoup
 
@@ -16,7 +16,7 @@ form = login_html.select( "form" )[0]        # The first 'form' element on the p
 form.select( "input" )[0]["value"] = 'zeus'  # Set the first 'input' field value
 form.select( "input" )[1]["value"] = 'ThunderDude'  # Set the second 'input' field value
 
-# Submit the form, which should log us in
+# Submit the form, which should log us in and take us to the next page on the site.
 site_page = browser.submit( form, login_page.url )
 
 # After a successful login, displaying the 'site_page.url' should show the URL of the page.

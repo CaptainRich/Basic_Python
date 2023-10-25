@@ -35,6 +35,7 @@ For interacting with web pages, Mechanicalsoup should be installed, using the co
 ## File List
 **page_read.py** - an example of reading a webpage using 'beautifulsoup'.   
 **form_submit.py** - an example of interacting with a web form using 'mechanicalsoup'.  
+**scrape_updating.py** - an example of accessing a web page element that is constantly updated.
  
  
 

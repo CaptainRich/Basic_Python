@@ -55,7 +55,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **CSV-Work\csv-write-read.py** - a routine to write, then read a CSV file of numbers, and compute the average of each row. Also illustrates 'enumerate' and math operations for the average.  
 **CSV-Work\high-scores.py** - a routine to read a CSV file of 'names & scores' and summarize the data to a new CSV file such that only a person's highest score is reported.  
 
-**Math_Work** - a subdirectory with a number of .py routines illustrating math, matrix, and plotting concepts.
-**PDF_Work** - a subdirectory with a number of .py routines illustrating accessing PDF files.  This subdirectory includes its own 'redme.md' file.
-**SQL** - a subdirectory with a number of .py routines illustrating database access using SQL.  
-**WEB** - a subdirectory with a number of .py routines illustrating accessing web pages.  
+**Math_Work** - a subdirectory with a number of .py routines illustrating math, matrix, and plotting concepts.  
+**PDF_Work** - a subdirectory with a number of .py routines illustrating accessing PDF files.  This subdirectory includes its own 'redme.md' file.  
+**SQL** - a subdirectory with a number of .py routines illustrating database access using SQL.   
+**WEB** - a subdirectory with a number of .py routines illustrating accessing web pages.   

@@ -16,8 +16,8 @@ information in setting up the 'virtual environment' and running the scripts in t
 subdirectory.   
 
 ## Environment
-To utilize these scripts, a virtual environment is created so that the installation of PyPDF2 remains
-local to this subdirectory, and does not affect the rest of the machine.
+To utilize these scripts, a virtual environment is created so that the installation of BeautifulSoup 
+and MechanicalSoup remain local to this subdirectory, and does not affect the rest of the machine.
 
 The virtual environment can be setup using the command: 
 **'python -m venv "WEBenv" --upgrade-deps --prompt="WEBenv"'**

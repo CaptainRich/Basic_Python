@@ -35,7 +35,7 @@ Additionally, the plotting library (matplotlib) should be installed:
 
 
 ## File List
-**expense_plots.py** - an example illustrating basic plotting (graph) concepts.  
+**expense_plots.py** - an example illustrating basic plotting (graphs, bars) concepts.  
 **matrix_math.py** - an example illustrating basic matrix manipulations'.    
 
  

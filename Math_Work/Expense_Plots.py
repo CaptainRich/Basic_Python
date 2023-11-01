@@ -2,6 +2,7 @@
 
 # Import the necessary library functions
 from matplotlib import pyplot as plt
+import numpy as np
 
 # Define (acquire) the data to be plotted.  Here we have years versus expenses.
 
@@ -14,13 +15,22 @@ trips  = [43641,59737,55703,44743,11666,15528,30696,30896]   # Sample travel exp
 # Plot the household expenses by year. For documentation on 'matplotlib', see:
 #  https://matplotlib.org/2.0.2/contents.html
 
+# Generate the array of "Y axis" values
+yvalues = np.arange( 0, 110000, 5000 )
+
 plt.title( "Yearly Expenses" )
 plt.xlabel( "Years" )
 plt.ylabel( "Dollars" )
-plt.legend( "Household, Electricity" )
+plt.yticks( yvalues )
 plt.plot( years, hshold, "g-o" )        # Green, solid line, with circles
 plt.plot( years, electy, "b:^" )        # Blue, dotted line, with triangles
 plt.plot( years, entrn, "m-.8" )        # Magenta, dash-dot line, with octagons
-plt.plot( years, trips, "r--D")         # Red, dash-dash line, with diamonds    
+plt.plot( years, trips, "r--D")         # Red, dash-dash line, with diamonds  
+
+#plt.grid( visible="true", which="both", axis="both" )
+#plt.grid( True, linestyle=':' )
+plt.grid( visible='true', which='both', color='#9e9b91', linestyle=':', linewidth=0.5, axis='both' )
+
+plt.legend( ["Household", "Electricity", "Entertainment", "Travel"] )
 plt.show()
 

@@ -35,7 +35,8 @@ Additionally, the plotting library (matplotlib) should be installed:
 
 
 ## File List
-**page_read.py** - an example of reading a webpage using 'beautifulsoup'.   
+**expense_plots.py** - an example illustrating basic plotting (graph) concepts.  
+**matrix_math.py** - an example illustrating basic matrix manipulations'.    
 
  
  

@@ -33,7 +33,7 @@ After starting the virtual environment, EasyGUI can be installed with the comman
 
 
 ## File List
-**e.py** - an example illustrating basic GUI usage.  
+**simple_boxes.py** - an example illustrating basic 'easygui' usage.  
 
  
  

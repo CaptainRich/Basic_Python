@@ -30,6 +30,34 @@ rtn = gui.enterbox(
 print( "The returned value from the enter box is: ", rtn )
 
 
+#######################################################################################
+msg         = "Enter your personal information"
+title       = "Personal Application"
+fieldNames  = ["Name","Street Address","City","State","ZipCode"]
+fieldValues = []  # Start with blanks for the data values
+fieldValues = gui.multenterbox( msg, title, fieldNames )
+
+# Make sure that none of the fields were left blank
+while 1:
+    if fieldValues is None: 
+        break
+
+    errmsg = ""
+    for i in range( len(fieldNames) ):
+        if fieldValues[i].strip() == "":   # Remove leading/trailing spaces
+            errmsg += ('"%s" is a required field.\n\n' % fieldNames[i])
+
+    if errmsg == "":
+        break # no problems found
+
+    # Otherwise, on problems, redisplay the dialog box.
+    fieldValues = gui.multenterbox(errmsg, title, fieldNames, fieldValues)
+
+print( "Data entered is: %s" % str(fieldValues) )
+
+##########################################################################################
+
+
 rtn = gui.fileopenbox(
     title   = "Select the target file:"
 )

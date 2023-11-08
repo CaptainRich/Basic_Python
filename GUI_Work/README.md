@@ -34,6 +34,8 @@ After starting the virtual environment, EasyGUI can be installed with the comman
 
 ## File List
 **simple_boxes.py** - an example illustrating basic 'easygui' usage.  
+**TKinter_grid.py** - an example illustrating tkinter usage with '.grid' and '.pack'.
+**TKinter_test.py** - an example illustrating basic 'tkinter' with '.place' and '.pack'.
 
  
  

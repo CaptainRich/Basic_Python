@@ -32,7 +32,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **animal_classes.py** - a routine illustrating 'class' definition and usage.  
 **capitals_dictionary.py** - a routine to quiz the user on state capitals, using a dictionary.  
 **dictionaries.py** - a routine to illustrate the 'dictionary' data structure and its usage, as well as 'enumerate'.  
-**dir_list.py**  - a routine to list the files and directories in a specified directory, and utilize the 'pathlib' module.   
+**dir_list.py**  - a routine to list the files and directories in a specified directory, and utilize the 'pathlib' module.  This script has been enhanced and resides in its own stand-alone subdirectory (useing 'easygui'). 
 **Factorization.py** - a routine to display all the factors of an integer value, implemented 'try', 'except' and 'sys.exit()' on error  
 **fibonacci.py** - a routine to generate a fibonacci series up to 100    
 **floating_ops.py** - a routine illustrating floating point operations and rounding  
@@ -55,6 +55,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **CSV-Work\csv-write-read.py** - a routine to write, then read a CSV file of numbers, and compute the average of each row. Also illustrates 'enumerate' and math operations for the average.  
 **CSV-Work\high-scores.py** - a routine to read a CSV file of 'names & scores' and summarize the data to a new CSV file such that only a person's highest score is reported.  
 
+**GUI_Work** - a subdirectory with .py scripts illustrating GUI implementations using 'easygui' and 'tkinter'.
 **Math_Work** - a subdirectory with a number of .py routines illustrating math, matrix, and plotting concepts.  
 **PDF_Work** - a subdirectory with a number of .py routines illustrating accessing PDF files.  This subdirectory includes its own 'redme.md' file.  
 **SQL** - a subdirectory with a number of .py routines illustrating database access using SQL.   

@@ -66,8 +66,8 @@ window.geometry("400x200+300+450")  # Width, Height, X position, Y position
 # Row 1 will contain the input and output labels.
 # Row 2 will contain the input and output values (enter boxes)
 # Row 3 will contain the 'go' button.
-window.rowconfigure( [0, 1, 2, 3], weight=1, minsize=20 )   # Row 0, resize, minimum size is 100 pixels
-window.columnconfigure( [0, 1], weight=1, minsize=200 )    # All three columns, resize, minimum is 50
+window.rowconfigure( [0, 1, 2, 3], weight=1, minsize=20 )   # Row 0, resize, minimum size is 20 pixels
+window.columnconfigure( [0, 1], weight=1, minsize=200 )    # All three columns, resize, minimum is 200
 
 # Setup the radio buttons and their location in the dialog
 selected = tk.IntVar()

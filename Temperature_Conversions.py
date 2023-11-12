@@ -1,3 +1,5 @@
+"""A simple temperature converter."""
+
 # Setup a temperature conversion program.
 flag_str = input( "Enter 'F' for 'Farenheight' to 'Celsius', or 'C' for the reverse: " )
 flag_str = flag_str.upper()

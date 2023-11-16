@@ -59,4 +59,8 @@ newList = phrase.split( " " )
 print( " " )
 print( "The original string is: ", phrase )
 print( "The string broken into a list (with 'split()') is: ", newList )
+
+# Use 'list compression' to generate a list of the "cubes" of the first 10 numbers.
+cubes = [ value**3 for value in range(1,11) ]
+print( "The cube of the first 10 integers is:\n", cubes )
       

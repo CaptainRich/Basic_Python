@@ -6,23 +6,23 @@ import class_package.car_classes as crs
 
 taycan = crs.Car( 
     'Porsche', 'Taycan', 2020, 'Electric', 'White', 'all-wheel',
-    16700, 0, 0, '9/2024' )
+    17100, 0, 0, '9/2024' )
 
 p911 = crs.Car( 
     'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-     9925, 0, 6700, '9/2024' )
+     9925, 0, 6700, '5/2024' )
 
 tesla = crs.Car( 
     'Tesla', 'S-P100D', 2017, 'Electric', 'White', 'all-wheel',
-     9925, 0, 6700, '9/2024' )
+     9925, 0, 6700, '4/2024' )
 
 yukon = crs.Car(
     'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-    70000, 65000, 0, '9/2024' )
+    70000, 65000, 0, '5/2024' )
 
 sl = crs.Car(
     'Mercedes', 'SL-65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-    28600, 27000, 0, '9/2024' )
+    28600, 27000, 0, '2/2024' )
 
 
 # REport on the information specified above.

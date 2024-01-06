@@ -4,7 +4,7 @@ class Car:
 
     def __init__ ( self, make, model, year, engine, color, drive_train,
                    mileage, oil_change_miles, tire_miles, 
-                   inspection_date ):
+                   inspection_date, plate, tag ):
         """Initialize the attributes for a car."""
         self.make             = make
         self.model            = model
@@ -16,6 +16,8 @@ class Car:
         self.oil_change_miles = oil_change_miles
         self.tire_miles       = tire_miles
         self.inspection_date  = inspection_date
+        self.license_plate    = plate
+        self.toll_tag         = tag
 
     def report_car( self ):
         """ Report all of the information for a car. """
@@ -26,7 +28,9 @@ class Car:
                    + f" Odometer: {self.mileage} \n" \
                    + f" Oil Changed at (miles): {self.oil_change_miles} \n" \
                    + f" Tires Changed at (miles): {self.tire_miles} \n" \
-                   + f" Inspection Date: {self.inspection_date} \n"
+                   + f" Inspection Date: {self.inspection_date} \n" \
+                   + f" License Plate: {self.license_plate} \n" \
+                   + f" Toll Tag:  {self.toll_tag} \n"
 
         return car_info
 

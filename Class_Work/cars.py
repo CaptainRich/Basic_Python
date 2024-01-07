@@ -10,7 +10,7 @@ taycan = crs.Car(
 
 p911 = crs.Car( 
     'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-     9925, 0, 6700, '5/2024', 'HSM 610', 'HCTRA03615043' )
+     9925, 9721, 6700, '5/2024', 'HSM 610', 'HCTRA03615043' )
 
 tesla = crs.Car( 
     'Tesla', 'S-P100D', 2017, 'Electric', 'White', 'all-wheel',
@@ -18,15 +18,15 @@ tesla = crs.Car(
 
 yukon = crs.Car(
     'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-    70000, 65000, 0, '5/2024', 'LYD 0892', 'HCTRA10668298' )
+    70000, 58616, 30867, '5/2024', 'LYD 0892', 'HCTRA10668298' )
 
 sl = crs.Car(
     'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-    28600, 27000, 0, '2/2024', 'GWL 9350', 'HCTRA03830620' )
+    28600, 25035, 18000, '2/2024', 'GWL 9350', 'HCTRA03830620' )
 
 a5 = crs.Car(
     'Audi', 'A5', 2012, 'Gasoline', 'White', 'rear-wheel',
-    110000, 90000, 0, '2/2024', 'CRP 6302', 'HCTRA06418388' )
+    110000, 90000, 0, '9/2024', 'CRP 6302', 'HCTRA06418388' )
 
 arteon = crs.Car(
     'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',

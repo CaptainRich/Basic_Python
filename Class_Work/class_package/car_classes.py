@@ -55,8 +55,8 @@ class Car:
     def update_tire_miles( self, new_miles ):
         """ Update the mileage for the last tire change for the car. """
 
-        if( new_miles >= self.tire_change_miles ):
-            self.tire_change_miles = new_miles
+        if( new_miles >= self.tire_miles and new_miles >= self.mileage ):
+            self.tire_miles = new_miles
         else:
             print( "Error, new tire mileage can't be less than current mileage.")
 

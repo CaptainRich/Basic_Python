@@ -58,6 +58,7 @@ print( "\n", arteon_info )
 
 
 # Update the milage on the Tesla
-tesla.update_miles( 57346 )
+tesla.update_tire_miles( 59342 )
+tesla.update_miles( 59347 )
 tesla_info = tesla.report_car()
 print( "\n", tesla_info )

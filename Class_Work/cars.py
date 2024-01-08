@@ -40,41 +40,31 @@ def set_cars():
         'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',
         46000, 40000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680' )
     
-    return taycan, p911, tesla, yukon, sl, a5, arteon
+    # Return the 'car objects' in a 'list'
+    cars=[taycan, p911, tesla, yukon, sl, a5, arteon]
+    
+    
+    return cars
 
 
 ###########################################################################
 # Main
     
 # Setup the cars
-taycan, p911, tesla, yukon, sl, a5, arteon = set_cars()
+cars = set_cars()
 
-# Report on the information specified above.
+# Report on the information specified for the cars.
 
-taycan_info = taycan.report_car()
-print( "\n", taycan_info )
-
-p911_info = p911.report_car()
-print( "\n", p911_info )
-
-tesla_info = tesla.report_car()
-print( "\n", tesla_info )
-
-yukon_info = yukon.report_car()
-print( "\n", yukon_info )
-
-sl_info = sl.report_car()
-print( "\n", sl_info )
-
-a5_info = a5.report_car()
-print( "\n", a5_info )
-
-arteon_info = arteon.report_car()
-print( "\n", arteon_info )
+for car in cars:
+    info = car.report_car()
+    print( "\n", info )
 
 
 # Update the milage on the Tesla
-tesla.update_tire_miles( 59342 )
-tesla.update_miles( 59347 )
-tesla_info = tesla.report_car()
-print( "\n", tesla_info )
+
+for car in cars:
+    if car.make == 'Tesla':
+        car.update_tire_miles( 59342 )
+        car.update_miles( 59347 )
+        info = car.report_car()
+        print( "\n", info )

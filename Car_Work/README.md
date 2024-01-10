@@ -1,4 +1,4 @@
-# $`\textcolor{blue}{\text{Python Basics - GUI Work}}`$
+# $`\textcolor{blue}{\text{A 'car' reporting utility}}`$
 A collection of Python (.py) files illustrating  Python concepts in dealing 
 with the a cars.  
 Richard Ay (January 2024)

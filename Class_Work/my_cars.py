@@ -1,6 +1,6 @@
 """Example of 'class' and 'package' implementation for cars."""
 
-import class_package.car_classes as crs
+import car_package.car_classes as crs
 
 #############################################################################
 # Setup the cars
@@ -60,7 +60,8 @@ for car in cars:
     print( "\n", info )
 
 
-# Update the milage on the Tesla
+# Update the milage on the Tesla. This data could be moved up above, but 
+# this shows the update functions work.
 
 for car in cars:
     if car.make == 'Tesla':

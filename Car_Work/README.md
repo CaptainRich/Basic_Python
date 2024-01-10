@@ -1,6 +1,6 @@
 # $`\textcolor{blue}{\text{Python Basics - GUI Work}}`$
 A collection of Python (.py) files illustrating  Python concepts in dealing 
-with the a Classes.  
+with the a cars.  
 Richard Ay (January 2024)
 
 ## $`\textcolor{blue}{\text{Table of Contents}}`$  
@@ -14,9 +14,12 @@ the scripts in this subdirectory.
 
 
 ## File List
-**cars.py** - a script to monitor and report on "car" statistics.  
+**my_cars.py** - a script to monitor and report on "car" statistics.  Known data is hardwired into
+                 the top of this file.  Update routines are available, but the data should be 
+                 manually adjusted (in the script) since updated data is not currently permanent.
 
-**class_package** - a package of .py files/classes to facilitate the scripts in this subdirectory.
+**car_package** - a package of .py files/classes to facilitate the scripts in this subdirectory. There
+                  is a parent class and two sub-classes in this package.
 
  
  

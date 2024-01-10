@@ -23,7 +23,7 @@ def set_cars():
 
     tesla = crs.Ec_Car( 
         'Tesla', 'S-P100D', 2017, 'Electric', 'White', 'all-wheel',
-         55000, 6700, '4/2024', 'SUVIVR', 'HCTR08587921', 276 )
+         59347, 59342, '4/2024', 'SUVIVR', 'HCTR08587921', 276 )
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
@@ -48,18 +48,29 @@ def set_cars():
     return cars
 
 ###########################################################################
+# Display all of the information for all of the cars.
+def display_all_cars( cars ):
+    """ Display all of the information for the cars in the 'cars' list. """
+
+    for car in cars:
+        info = car.report_car()
+        print( "\n", info ) 
+
+
+###########################################################################
 # Main
     
 # Setup the cars
 cars = set_cars()
 
+"""
 # Report on the information specified for the cars.
 
 for car in cars:
     info = car.report_car()
-    print( "\n", info )
+    print( "\n", info ) """
 
-
+"""
 # Update the milage on the Tesla. This data could be moved up above, but 
 # this shows the update functions work.
 
@@ -68,4 +79,36 @@ for car in cars:
         car.update_tire_miles( 59342 )
         car.update_miles( 59347 )
         info = car.report_car()
-        print( "\n", info )
+        print( "\n", info )  """
+
+########
+# Display a list of the current cars and ask what display action should be taken.
+num_cars = len(cars)
+print( f"\n There are {num_cars} cars defined (1/9/2024)." )
+ans = input( " Display information on (a)ll or just (o)ne car?  ").upper()
+
+if( ans != 'A' and ans != 'O' ):    # Verify the response
+    print( " \n Invalid option specified.\n" )
+    exit()
+
+
+if( ans == 'A' ):
+    display_all_cars( cars )
+    exit()
+
+# Prompt for which car's information should be displayed.
+print( f"\n Select which car's information should be displayed:\n")
+
+for index, car in enumerate(cars):
+    print( f"({index}) {car.make.title()} {car.model}")
+
+ans   = input( "\n Which car should be displayed? " )
+index = int( ans )
+
+if( index > num_cars-1 ):    # Verify the response
+    print( " \n Invalid index specified.\n" )
+    exit() 
+
+info  = cars[index].report_car()  # Report on the selected car
+print( "\n", info )
+

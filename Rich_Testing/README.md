@@ -6,6 +6,7 @@ Richard Ay (January 2024)
 ## $`\textcolor{blue}{\text{Table of Contents}}`$  
 * [Setup](#setup)
 * [Envirionment](#environment)
+* [Technologies and References](#technologies-and-references)
 * [File List](#file-list)
 
 
@@ -28,6 +29,10 @@ activated, the virtual environment will change the (terminal) prompt from (PS) t
 After starting the virtual environment, the 'Rich' package can be installed with the command:  
 **'python -m pip install rich'**.  Subsequently the installation can be verified with the command: 
 **'python -m pip show rich'**.   
+
+## Technologies and References
+- The scripts in this directory utilize the 'rich package' and a virtual environment.  
+- The reference for these scripts is:  https://realpython.com/python-rich-package.
 
 
 ## File List

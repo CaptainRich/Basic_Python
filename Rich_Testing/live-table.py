@@ -58,7 +58,7 @@ num_lines = 20
 
 with Live( make_table(coins[:num_lines]), screen=True ) as live:
     index = 0
-    with contextlib.suppress( KeyboardInterrupt ):
+    with contextlib.suppress( KeyboardInterrupt ): # to stop on Crtl+C
         while True:
             live.update( make_table(coins[index : index + num_lines]) )
             time.sleep( 0.5 )

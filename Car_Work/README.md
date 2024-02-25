@@ -13,6 +13,9 @@ Richard Ay (January 2024)
 Refer to the main 'readme.md' in the directory above.  There is no special setup required for
 the scripts in this subdirectory.  
 
+This script can be run from the terminal in VS-Code or from a command prompt by issuing 
+the command:  'python my_cars.py' .  
+
 
 ## Technolgies_Used
 Package

@@ -27,11 +27,11 @@ def set_cars():
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        65755, 58616, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751 )
+        66907, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751 )
 
     sl = crs.Ff_Car(
         'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-        28600, 18000, '2/2024', 'GWL 9350', 'HCTRA03830620', 25035 )
+        28600, 18000, '2/2025', 'GWL 9350', 'HCTRA03830620', 25035 )
 
     a5 = crs.Ff_Car(
         'Audi', 'A5', 2012, 'Gasoline', 'White', 'rear-wheel',

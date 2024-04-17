@@ -85,7 +85,7 @@ class Ec_Car( Car ):
     def report_car( self ):
         """" Get the car's information from the parent class. """
         car_info = super().report_car( )
-        car_info += f" Max Range:  {self.max_range} \n" # add EC_Car specifics
+        car_info += f" Max Range (@90%):  {self.max_range} \n" # add EC_Car specifics
 
         return car_info
 

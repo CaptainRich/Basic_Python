@@ -35,7 +35,7 @@ def set_cars():
 
     a5 = crs.Ff_Car(
         'Audi', 'A5', 2012, 'Gasoline', 'White', 'rear-wheel',
-        110000, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 90000 )
+        135010, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 90000 )
 
     arteon = crs.Ff_Car(
         'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',

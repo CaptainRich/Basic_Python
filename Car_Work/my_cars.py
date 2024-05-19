@@ -11,35 +11,42 @@ def set_cars():
 
     # Make, Model, Year, Engine-Type, Color, Drive-Type
     # Mileage, Tire-Miles, Inspection, License, Toll-Tag,
-    # (Oil-Miles or Battery Range)
+    # (Oil-Miles or Battery Range), purchase date, sell date.
 
     taycan = crs.Ec_Car( 
         'Porsche', 'Taycan', 2020, 'Electric', 'White', 'all-wheel',
-        18130, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 246 )
+        18130, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 246,
+        'Sept 2020', 'active' )
 
     p911 = crs.Ff_Car( 
         'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-         9925, 9721, '5/2024', 'HSM 610', 'HCTRA03615043', 6700 )
+         9925, 9721, '5/2024', 'HSM 610', 'HCTRA03615043', 9750,
+          'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 
         'Tesla', 'S-P100D', 2017, 'Electric', 'White', 'all-wheel',
-         59347, 59342, '4/2025', 'SUVIVR', 'HCTR08587921', 276 )
+         59500, 59342, '4/2025', 'SUVIVR', 'HCTR08587921', 276, 
+          'Aug 2017', 'May 2024' )
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        66907, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751 )
+        66907, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751,
+         'Apr 2019', 'active' )
 
     sl = crs.Ff_Car(
         'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-        28600, 18000, '2/2025', 'GWL 9350', 'HCTRA03830620', 25035 )
+        28600, 18000, '2/2025', 'GWL 9350', 'HCTRA03830620', 25035,
+         'Mar 2008', 'active' )
 
     a5 = crs.Ff_Car(
         'Audi', 'A5', 2012, 'Gasoline', 'White', 'rear-wheel',
-        135010, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 90000 )
+        135010, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 90000,
+         'Jun 2014', 'May 2024' )
 
     arteon = crs.Ff_Car(
         'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',
-        46000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680', 40000 )
+        46000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680', 40000,
+         'Jul 2022', 'active' )
     
     # Return the 'car objects' in a 'list'
     cars=[taycan, p911, tesla, yukon, sl, a5, arteon]

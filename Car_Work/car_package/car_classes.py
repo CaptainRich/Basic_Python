@@ -4,6 +4,7 @@ class Car:
 
     def __init__ ( self, make, model, year, engine, color, drive_train,
                    mileage, tire_miles, inspection_date, 
+                   buy_date, sell_date,
                    plate, tag ):
         """Initialize the attributes for a general car."""
         self.make             = make
@@ -16,7 +17,9 @@ class Car:
         self.tire_miles       = tire_miles
         self.inspection_date  = inspection_date
         self.license_plate    = plate
-        self.toll_tag         = tag        
+        self.toll_tag         = tag    
+        self.buy_date         = buy_date    
+        self.sell_date        = sell_date
 
     def report_car( self ):
         """ Report all of the information for a general car. """
@@ -24,11 +27,13 @@ class Car:
                    + f" Engine Type: {self.engine} \n" \
                    + f" Color: {self.color} \n" \
                    + f" Drive Train: {self.drive_train} \n" \
+                   + f" Purchase Date: {self.buy_date} \n" \
                    + f" Odometer: {self.mileage} \n" \
                    + f" Tires Changed at (miles): {self.tire_miles} \n" \
                    + f" Inspection Date: {self.inspection_date} \n" \
                    + f" License Plate: {self.license_plate} \n" \
-                   + f" Toll Tag:  {self.toll_tag} \n"
+                   + f" Toll Tag:  {self.toll_tag} \n" \
+                   + f" Sold Date: {self.sell_date} \n"
 
         return car_info
 
@@ -73,14 +78,14 @@ class Ec_Car( Car ):
 
     def __init__ ( self, make, model, year, engine, color, drive_train,
                    mileage, tire_miles, inspection_date, 
-                   plate, tag, max_range ):
+                   plate, tag, max_range, buy_date, sell_date ):
          """ Initialize the attributes for an electric car. """ 
          self.max_range = max_range
 
          # Initialize the remaining attributes of the 'Car' class.
          super().__init__( make, model, year, engine, color, drive_train,
-                   mileage, tire_miles, 
-                   inspection_date, plate, tag )
+                   mileage, tire_miles, inspection_date, buy_date, sell_date,
+                   plate, tag )
          
     def report_car( self ):
         """" Get the car's information from the parent class. """
@@ -98,15 +103,16 @@ class Ec_Car( Car ):
 class Ff_Car( Car ):
 
     def __init__ ( self, make, model, year, engine, color, drive_train,
-                   mileage, tire_miles, inspection_date,
-                    plate, tag, oil_change_miles ):
+                   mileage, tire_miles, inspection_date, buy_date, sell_date, 
+                   plate, tag, oil_change_miles ):
          
          """ Initialize the attributes for a Fossil fuel car. """ 
          self.oil_change_miles = oil_change_miles
 
          # Initialize the remaining attributes of the 'Car' class.
          super().__init__( make, model, year, engine, color, drive_train,
-                   mileage, tire_miles, inspection_date, plate, tag )
+                   mileage, tire_miles, inspection_date, buy_date,
+                   sell_date, plate, tag )
          
     def report_car( self ):
         """" Get the car's information from the parent class. """

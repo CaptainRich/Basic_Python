@@ -23,17 +23,17 @@ class Car:
 
     def report_car( self ):
         """ Report all of the information for a general car. """
-        car_info = f"{self.year} {self.make} {self.model} \n" \
-                   + f" Engine Type: {self.engine} \n" \
-                   + f" Color: {self.color} \n" \
-                   + f" Drive Train: {self.drive_train} \n" \
-                   + f" Purchase Date: {self.buy_date} \n" \
-                   + f" Odometer: {self.mileage} \n" \
-                   + f" Tires Changed at (miles): {self.tire_miles} \n" \
-                   + f" Inspection Date: {self.inspection_date} \n" \
-                   + f" License Plate: {self.license_plate} \n" \
-                   + f" Toll Tag:  {self.toll_tag} \n" \
-                   + f" Sold Date: {self.sell_date} \n"
+        car_info = f"\t{self.year} {self.make} {self.model} \n" \
+                   + f" Engine Type: \t\t\t{self.engine} \n" \
+                   + f" Color: \t\t\t{self.color} \n" \
+                   + f" Drive Train: \t\t\t{self.drive_train} \n" \
+                   + f" Purchase Date: \t\t{self.buy_date} \n" \
+                   + f" Odometer: \t\t\t{self.mileage} \n" \
+                   + f" Tires Changed at (miles): \t{self.tire_miles} \n" \
+                   + f" Inspection Date: \t\t{self.inspection_date} \n" \
+                   + f" License Plate: \t\t{self.license_plate} \n" \
+                   + f" Toll Tag:  \t\t\t{self.toll_tag} \n" \
+                   + f" Sold Date: \t\t\t{self.sell_date} \n"
 
         return car_info
 
@@ -90,7 +90,7 @@ class Ec_Car( Car ):
     def report_car( self ):
         """" Get the car's information from the parent class. """
         car_info = super().report_car( )
-        car_info += f" Max Range (@90%):  {self.max_range} \n" # add EC_Car specifics
+        car_info += f" Max Range (@90%):  \t\t{self.max_range} \n" # add EC_Car specifics
 
         return car_info
 
@@ -103,8 +103,8 @@ class Ec_Car( Car ):
 class Ff_Car( Car ):
 
     def __init__ ( self, make, model, year, engine, color, drive_train,
-                   mileage, tire_miles, inspection_date, buy_date, sell_date, 
-                   plate, tag, oil_change_miles ):
+                   mileage, tire_miles, inspection_date,  
+                   plate, tag, oil_change_miles, buy_date, sell_date ):
          
          """ Initialize the attributes for a Fossil fuel car. """ 
          self.oil_change_miles = oil_change_miles
@@ -119,6 +119,6 @@ class Ff_Car( Car ):
         car_info = super().report_car( )
 
         # Add Fossil fuel car specifics
-        car_info += f" Oil Changed at (miles): {self.oil_change_miles} \n"
+        car_info += f" Oil Changed at (miles): \t{self.oil_change_miles} \n"
 
         return car_info

@@ -30,7 +30,7 @@ def set_cars():
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        66907, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751,
+        70310, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751,
          'Apr 2019', 'active' )
 
     sl = crs.Ff_Car(

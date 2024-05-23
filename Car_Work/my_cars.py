@@ -9,8 +9,8 @@ def set_cars():
 
     # Instantiate several cars.
 
-    # Make, Model, Year, Engine-Type, Color, Drive-Type
-    # Mileage, Tire-Miles, Inspection, License, Toll-Tag,
+    # Make, Model, Year, Engine-Type, Color, Drive-Type,
+    # Mileage, Tire-Miles, Next Inspection, License, Toll-Tag,
     # (Oil-Miles or Battery Range), purchase date, sell date.
 
     taycan = crs.Ec_Car( 
@@ -20,7 +20,7 @@ def set_cars():
 
     p911 = crs.Ff_Car( 
         'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-         9925, 9721, '5/2024', 'HSM 610', 'HCTRA03615043', 9750,
+         10156, 9721, '5/2025', 'HSM 610', 'HCTRA03615043', 9750,
           'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 
@@ -30,7 +30,7 @@ def set_cars():
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        70310, 66907, '5/2024', 'LYD 0892', 'HCTRA10668298', 65751,
+        70349, 66907, '5/2025', 'LYD 0892', 'HCTRA10668298', 65751,
          'Apr 2019', 'active' )
 
     sl = crs.Ff_Car(

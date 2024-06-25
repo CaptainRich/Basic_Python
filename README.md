@@ -37,7 +37,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **fibonacci.py** - a routine to generate a fibonacci series up to 100    
 **floating_ops.py** - a routine illustrating floating point operations and rounding  
 **hello_world.py** - the infamous 'hello world' program  
-**list_range.py** - a set of examples illustrating lists and ranges  
+**list_range.py** - a set of examples illustrating lists and ranges
 **multiplication_table.py** - a routine to generate the multiplication tables up to 15  
 **number_ops.py** - a routine illustrating various number operations, conversions, and formatting   
 **package_main.py** - a routine illustrating package usage, uses \package_sample subdirectory   
@@ -58,6 +58,7 @@ output going to the terminal.  Note the suffix ".py" is required.
 **Car_Work** - a subdirectory with .py scripts illustrating Python classes and packages dealing with cars. This subdirectory includes its own 'readme.md' file.
 **GUI_Work** - a subdirectory with .py scripts illustrating GUI implementations using 'easygui' and 'tkinter'.
 **Math_Work** - a subdirectory with a number of .py routines illustrating math, matrix, and plotting concepts.  
+**Map-It** - a subdirectory with the MapIt.py script, which maps a specified address directly using Google Maps.
 **PDF_Work** - a subdirectory with a number of .py routines illustrating accessing PDF files.  This subdirectory includes its own 'readme.md' file.  
 **SQL** - a subdirectory with a number of .py routines illustrating database access using SQL.   
 **WEB** - a subdirectory with a number of .py routines illustrating accessing web pages.   

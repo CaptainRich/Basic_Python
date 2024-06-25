@@ -4,7 +4,8 @@ __pycache__
 PDF_Work/PDFenv/
 WEB/WEBenv/
 Math_Work/MATHenv/
-GUI_Work/GUIenv/
+GUI_Work/GUIenv
+CSV_Work/ExcelEnv
 docs/
 Rich_Testing/RichTest/
 

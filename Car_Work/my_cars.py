@@ -11,16 +11,18 @@ def set_cars():
 
     # Make, Model, Year, Engine-Type, Color, Drive-Type,
     # Mileage, Tire-Miles, Next Inspection, License, Toll-Tag,
-    # (Oil-Miles or Battery Range), purchase date, sell date.
+    # (Oil-Miles or Battery Range), purchase date, sell date
+	
+	# Ec - Electric Car        Ff - Fossil fuel car
 
     taycan = crs.Ec_Car( 
         'Porsche', 'Taycan', 2020, 'Electric', 'White', 'all-wheel',
-        18130, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 246,
+        18130, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 250,
         'Sept 2020', 'active' )
 
     p911 = crs.Ff_Car( 
         'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-         10156, 9721, '5/2025', 'HSM 610', 'HCTRA03615043', 9750,
+         10220, 9721, '5/2025', 'HSM 610', 'HCTRA03615043', 10210,
           'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 

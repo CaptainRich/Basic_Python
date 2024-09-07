@@ -26,9 +26,9 @@ def set_cars():
           'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 
-        'Tesla', 'S-P100D', 2017, 'Electric', 'White', 'all-wheel',
-         61650, 59342, '4/2025', 'SUVIVR', 'HCTR08587921', 276, 
-          'Aug 2017', 'May 2024' )
+        'Tesla', 'S-Plaid', 2024, 'Electric', 'White', 'all-wheel',
+         # 233, 233, '8/2025', 'SUVIVR', 'MTAH00559616', 256, 
+          'Aug 2024', 'active' )
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',

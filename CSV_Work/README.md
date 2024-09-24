@@ -1,5 +1,5 @@
 # $`\textcolor{blue}{\text{Python Basics}}`$
-A collection of Python (.py) files illustrationg basic Python concepts and operations 
+A collection of Python (.py) files illustrating basic Python concepts and operations 
 to interact with Excel 
 Richard Ay (August 2023, *updated June 2024*)
 

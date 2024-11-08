@@ -12,7 +12,7 @@ def set_cars():
     # Make, Model, Year, Engine-Type, Color, Drive-Type,
     # Mileage, Tire-Miles, Next Inspection, License, Toll-Tag,
     # (Oil-Miles or Battery Range), purchase date, sell date
-	
+    
 	# Ec - Electric Car        Ff - Fossil fuel car
 
     taycan = crs.Ec_Car( 
@@ -27,7 +27,7 @@ def set_cars():
 
     tesla = crs.Ec_Car( 
         'Tesla', 'S-Plaid', 2024, 'Electric', 'White', 'all-wheel',
-         # 233, 233, '8/2025', 'SUVIVR', 'MTAH00559616', 256, 
+          233, 233, '8/2025', 'SUVIVR', 'MTAH00559616', 256, 
           'Aug 2024', 'active' )
 
     yukon = crs.Ff_Car(

@@ -37,7 +37,7 @@ def set_cars():
 
     sl = crs.Ff_Car(
         'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-        29100, 29100, '2/2025', 'GWL 9350', 'HCTRA03830620', 25035,
+        29120, 29110, '2/2025', 'GWL 9350', 'HCTRA03830620', 25035,
          'Mar 2008', 'active' )
 
     a5 = crs.Ff_Car(

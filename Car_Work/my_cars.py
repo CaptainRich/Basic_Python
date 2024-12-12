@@ -48,10 +48,15 @@ def set_cars():
     arteon = crs.Ff_Car(
         'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',
         46000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680', 40000,
-         'Jul 2022', 'active' )
+         'Jul 2022', 'Dec 2024' )
+
+    M2 = crs.Ff_Car(
+        'BMW', 'M2', 2025, 'Gasoline', 'Gray', 'rear-wheel',
+        50, 50, '12/2025', 'temporary', 'HCTR-----', 50,
+         'Dec 2025', 'active' )
     
     # Return the 'car objects' in a 'list'
-    cars=[taycan, p911, tesla, yukon, sl, a5, arteon]
+    cars=[taycan, p911, tesla, yukon, sl, a5, arteon, M2]
     
     
     return cars

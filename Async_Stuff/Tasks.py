@@ -15,8 +15,8 @@ async def main():
     task1 = asyncio.create_task( count( 5, 'TASK1' ) )
     task2 = asyncio.create_task( count( 3, '   task2' ) )
 
-    await task1
-    await task2
+    await task1   #pause 'main' until 'task1' completes.
+    await task2   #pause 'main' until 'task2' completes.
 
 
 asyncio.run( main() )

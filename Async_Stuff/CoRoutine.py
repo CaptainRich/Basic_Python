@@ -4,6 +4,7 @@ import asyncio
 
 
 async def count():
+    "count() is a co-routine that can be suspended."
     print( "one" )
     await asyncio.sleep( 3 )
     print( "two" )

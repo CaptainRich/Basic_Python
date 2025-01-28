@@ -38,6 +38,7 @@ After starting the virtual environment, EasyGUI can be installed with the comman
 **future.py** - an example illustrating the 'future' concept'.  
 **generator.py** - an example of an asynchronous generator'.  
 **queues.py** - an example of asynchronous queues with producer/consumer patterns.
+**subprocessA.py** - an example of an asynchronous subprocess, won't run in a Powershell terminal.
 **tasks.py** - an example illustrating asynchronous coroutine tasks'.  
 
  

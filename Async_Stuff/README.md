@@ -23,11 +23,13 @@ The virtual environment can be setup using the command:
 To start/stop the virtual environment, use the commands: **'ASYNCenv\scripts\activate'** or **'deactivate'**. Once
 activated, the virtual environment will change the (terminal) prompt from (PS) to (GUIenv).
 
-After starting the virtual environment, EasyGUI can be installed with the command:  
-**'python -m pip install aiofiles'**.  Subsequently the installation can be verified with the command:  
-**'python -m pip show aiofiles'**.   
+After starting the virtual environment, the necessary "aioxxxx" libraries can be installed with the commands:  
+**'python -m pip install aiofiles'**   
+**'python -m pip install aiohttp'**  
 
-
+Subsequently the installations can be verified with the commands:  
+**'python -m pip show aiofiles'**   
+**'python -m pip show aiohttp'**   
 
 
 ## File List
@@ -36,10 +38,12 @@ After starting the virtual environment, EasyGUI can be installed with the comman
 **data.txt** - the data file used by the 'context_manager.py' script.  
 **Event_Loop.py** - an example of the asynchronous event loop'.  
 **future.py** - an example illustrating the 'future' concept'.  
-**generator.py** - an example of an asynchronous generator'.  
+**generator.py** - an example of an asynchronous generator'. 
+**http_client.py** - an example of an asynchronous HTTP client, using aiohttp (this is why the VENV is used). 
 **queues.py** - an example of asynchronous queues with producer/consumer patterns.
 **subprocessA.py** - an example of an asynchronous subprocess, won't run in a Powershell terminal.
 **tasks.py** - an example illustrating asynchronous coroutine tasks'.  
+**web_server.py** - an example of an asynchronous web server (output is directed to 'localhost:8080').
 
  
  

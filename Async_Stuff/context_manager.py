@@ -1,4 +1,5 @@
-""" An example of a 'context manager', coupled with a 'generator'."""
+""" An example of a 'context manager', coupled with a 'generator'.
+    NOTE: The virtual environment is required to run this script. """
 
 import asyncio
 import aiofiles 

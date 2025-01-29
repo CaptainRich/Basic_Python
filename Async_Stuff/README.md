@@ -38,12 +38,12 @@ Subsequently the installations can be verified with the commands:
 **data.txt** - the data file used by the 'context_manager.py' script.  
 **Event_Loop.py** - an example of the asynchronous event loop'.  
 **future.py** - an example illustrating the 'future' concept'.  
-**generator.py** - an example of an asynchronous generator'. 
-**http_client.py** - an example of an asynchronous HTTP client, using aiohttp (this is why the VENV is used). 
-**queues.py** - an example of asynchronous queues with producer/consumer patterns.
-**subprocessA.py** - an example of an asynchronous subprocess, won't run in a Powershell terminal.
+**generator.py** - an example of an asynchronous generator'.  
+**http_client.py** - an example of an asynchronous HTTP client, using aiohttp (this is why the VENV is used).  
+**queues.py** - an example of asynchronous queues with producer/consumer patterns.  
+**subprocessA.py** - an example of an asynchronous subprocess, won't run in a Powershell terminal.  
 **tasks.py** - an example illustrating asynchronous coroutine tasks'.  
-**web_server.py** - an example of an asynchronous web server (output is directed to 'localhost:8080').
+**web_server.py** - an example of an asynchronous web server (output is directed to 'localhost:8080').  
 
  
  

@@ -17,43 +17,43 @@ def set_cars():
 
     taycan = crs.Ec_Car( 
         'Porsche', 'Taycan', 2020, 'Electric', 'White', 'all-wheel',
-        20500, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 250,
-        'Sept 2020', 'active' )
+        20500, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 
+        250, 'Sept 2020', 'active' )
 
     p911 = crs.Ff_Car( 
         'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-         10357, 9721, '5/2026', 'HSM 610', 'HCTRA03615043', 10210,
-          'Apr 2008', 'active' )
+         10357, 9721, '5/2026', 'HSM 610', 'HCTRA03615043', 
+         10210, 'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 
         'Tesla', 'S-Plaid', 2024, 'Electric', 'White', 'all-wheel',
-          233, 233, '8/2025', 'SUVIVR', 'MTAH00559616', 256, 
-          'Aug 2024', 'active' )
+         233, 233, '8/2025', 'SUVIVR', 'MTAH00559616',  
+         256, 'Aug 2024', 'active' )
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        80245, 66907, '5/2026', 'LYD 0892', 'HCTRA10668298', 80245,
-         'Apr 2019', 'active' )
+        80245, 66907, '5/2026', 'LYD 0892', 'HCTRA10668298', 
+        80245, 'Apr 2019', 'active' )
 
     sl = crs.Ff_Car(
         'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-        30050, 29110, '2/2026', 'GWL 9350', 'HCTRA03830620', 29850,
-         'Mar 2008', 'active' )
+        30050, 29110, '2/2026', 'GWL 9350', 'HCTRA03830620', 
+        29850, 'Mar 2008', 'active' )
 
     a5 = crs.Ff_Car(
         'Audi', 'A5', 2012, 'Gasoline', 'White', 'rear-wheel',
-        135010, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 90000,
-         'Jun 2014', 'May 2024' )
+        135010, 0, '9/2024', 'CRP 6302', 'HCTRA06418388', 
+        90000, 'Jun 2014', 'May 2024' )
 
     arteon = crs.Ff_Car(
         'Volkswagen', 'Arteon', 2022, 'Gasoline', 'White', 'rear-wheel',
-        46000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680', 40000,
-         'Jul 2022', 'Dec 2024' )
+        46000, 450000, '2/2024', 'RTZ 0525', 'HCTR13111680', 
+        40000, 'Jul 2022', 'Dec 2024' )
 
     M2 = crs.Ff_Car(
         'BMW', 'M2', 2025, 'Gasoline', 'Gray', 'rear-wheel',
-        50, 50, '12/2025', 'temporary', 'HCTR-----', 50,
-         'Dec 2025', 'active' )
+        50, 50, '12/2025', 'temporary', 'HCTR-----', 
+        50, 'Dec 2025', 'active' )
     
     # Return the 'car objects' in a 'list'
     cars=[taycan, p911, tesla, yukon, sl, a5, arteon, M2]

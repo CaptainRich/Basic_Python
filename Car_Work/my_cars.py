@@ -17,7 +17,7 @@ def set_cars():
 
     taycan = crs.Ec_Car( 
         'Porsche', 'Taycan', 2020, 'Electric', 'White', 'all-wheel',
-        20500, 18127, '9/2024', 'NSS 9353', 'HCTR1-1697792', 
+        25500, 18127, '9/2026', 'NSS 9353', 'HCTR1-1697792', 
         250, 'Sept 2020', 'active' )
 
     p911 = crs.Ff_Car( 
@@ -27,7 +27,7 @@ def set_cars():
 
     tesla = crs.Ec_Car( 
         'Tesla', 'S-Plaid', 2024, 'Electric', 'White', 'all-wheel',
-         233, 233, '8/2025', 'SUVIVR', 'MTAH00559616',  
+         233, 233, '8/2026', 'SUVIVR', 'MTAH00559616',  
          256, 'Aug 2024', 'active' )
 
     yukon = crs.Ff_Car(

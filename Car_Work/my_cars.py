@@ -22,7 +22,7 @@ def set_cars():
 
     p911 = crs.Ff_Car( 
         'Porsche', '911', 2008, 'Gasoline', 'Baltic Blue', 'all-wheel',
-         10357, 9721, '5/2026', 'HSM 610', 'HCTRA03615043', 
+         10357, 9721, '5/2027', 'HSM 610', 'HCTRA03615043', 
          10210, 'Apr 2008', 'active' )
 
     tesla = crs.Ec_Car( 
@@ -32,12 +32,12 @@ def set_cars():
 
     yukon = crs.Ff_Car(
         'GMC', 'Yukon XL', 2017, 'Gasoline', 'Dark Gray', 'rear-wheel',
-        80245, 66907, '5/2026', 'LYD 0892', 'HCTRA10668298', 
+        80245, 66907, '5/2027', 'LYD 0892', 'HCTRA10668298', 
         80245, 'Apr 2019', 'active' )
 
     sl = crs.Ff_Car(
         'Mercedes', 'SL65 AMG', 2007, 'Gasoline', 'Capri Blue', 'rear-wheel',
-        30050, 29110, '2/2026', 'GWL 9350', 'HCTRA03830620', 
+        30050, 29110, '2/2027', 'GWL 9350', 'HCTRA03830620', 
         29850, 'Mar 2008', 'active' )
 
     a5 = crs.Ff_Car(
